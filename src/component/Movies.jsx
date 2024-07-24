@@ -28,7 +28,7 @@ function Movies({ getImdbId }) {
   useEffect(() => {
     axios
       .get(
-        `http://www.omdbapi.com/?s=${searchMovieName}&page=${pageNo}&apikey=48aa722f`
+        `https://www.omdbapi.com/?s=${searchMovieName}&page=${pageNo}&apikey=48aa722f`
       )
       .then((res) => {
         setMovies(res.data.Search);
