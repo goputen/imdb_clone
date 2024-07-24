@@ -28,4 +28,3 @@ This project demonstrates a solid understanding of React.js fundamentals, state 
 
 ---
 
-Feel free to modify this description to better suit your project's specific features or details!
