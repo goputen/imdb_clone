@@ -9,7 +9,7 @@ function MovieDetails({ imdbID }) {
   useEffect(() => {
     setLoading(true); 
     axios
-      .get(`http://www.omdbapi.com/?i=${imdbID}&apikey=48aa722f`)
+      .get(`https://www.omdbapi.com/?i=${imdbID}&apikey=48aa722f`)
       .then((res) => {
         setMovies([res.data]);
         setLoading(false);
