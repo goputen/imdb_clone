@@ -2,8 +2,7 @@
 ---
 
 ### IMDb Clone Website
-<a href="
-https://imdb-clone-one-rho.vercel.app/"> click here to go through...</a>
+
 This project is a clone of the IMDb website built using React.js, showcasing popular movies and TV shows. It is designed to provide users with an interactive and seamless experience for browsing and discovering movies.
 
 #### Key Features:
