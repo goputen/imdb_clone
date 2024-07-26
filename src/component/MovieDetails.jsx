@@ -41,7 +41,7 @@ function MovieDetails({ imdbID }) {
   }
 
    return (
-    <div className="flex justify-center items-center mt-10">
+    <div className="flex justify-center items-center mt-10 md:mt-0">
       <div className="flex flex-col bg-gray-800 rounded-lg shadow-lg overflow-hidden max-w-3xl w-full md:flex-row">
         <div className="flex-shrink-0 w-48">
           <img
