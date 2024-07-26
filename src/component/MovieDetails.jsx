@@ -58,6 +58,10 @@ function MovieDetails({ imdbID }) {
             <strong className="text-yellow-400 font-bold">Year:</strong>{" "}
             {movies[0].Year}
           </p>
+          <p className="mb-3 text-lg text-gray-400">
+            <strong className="text-yellow-400 font-bold">Rated:</strong>{" "}
+            {movies[0].Rated}
+          </p>
           <div className="flex items-center mb-3">
             <strong className="text-yellow-400 font-bold mr-2">
               IMDb Rating:
@@ -88,8 +92,16 @@ function MovieDetails({ imdbID }) {
             {movies[0].Runtime}
           </p>
           <p className="mb-3 text-lg text-blue-400 font-bold">
+            <strong className="text-yellow-400">Released:</strong>{" "}
+            {movies[0].Released}
+          </p>
+          <p className="mb-3 text-lg text-blue-400 font-bold">
             <strong className="text-yellow-400">Genre:</strong>{" "}
             {movies[0].Genre}
+          </p>
+          <p className="mb-3 text-lg text-blue-400 font-bold">
+            <strong className="text-yellow-400">BoxOffice:</strong>{" "}
+            {movies[0].BoxOffice}
           </p>
           <p className="mb-3 text-lg text-gray-200 italic">
             <strong className="text-yellow-400">Plot:</strong> {movies[0].Plot}
@@ -97,6 +109,10 @@ function MovieDetails({ imdbID }) {
           <p className="mb-3 text-lg text-blue-400 font-bold">
             <strong className="text-yellow-400">Starring:</strong>{" "}
             {movies[0].Actors}
+          </p>
+          <p className="mb-3 text-lg text-blue-400 font-bold">
+            <strong className="text-yellow-400">Awards:</strong>{" "}
+            {movies[0].Awards}
           </p>
           <p className="mb-3 text-lg text-blue-400 font-bold">
             <strong className="text-yellow-400">Director:</strong>{" "}
